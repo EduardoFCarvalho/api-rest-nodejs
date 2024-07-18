@@ -1,0 +1,16 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Transactions {
+  id         String   @id @default(uuid())
+  session_id String?  @default(uuid())
+  title      String
+  amount     Decimal
+  created_at DateTime @default(now())
+}

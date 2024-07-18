@@ -1,0 +1,11 @@
+# Dependencies
+node_modules
+
+# Database
+prisma/tmp/*.db
+
+# Environment
+.env
+
+# build
+build
