@@ -22,6 +22,7 @@
 ## Passo a passo para rodar o projeto
 Clone o projeto
 
+Acesse o diretório do projeto
 ```sh
 cd api-rest-nodejs/
 ```
@@ -36,7 +37,7 @@ Realize as operações utilizando um gerenciador de requisições (Hoppscotch, I
 
 # Operações:
 
-## Realizar uma transação
+- Realizar uma transação
 Post: 
   http://localhost:3333/transactions
 Corpo: 
@@ -46,14 +47,14 @@ Corpo:
       "type": "credit ou debit"
   }
 
-## Ver lista de transações realizadas
+- Ver lista de transações realizadas
 Get:
   http://localhost:3333/transactions
 
-## Verificar transação especifica
+- Verificar transação especifica
 Get:
   http://localhost:3333/transactions/id-da-transação
 
-## Resumo (total acumulado das transações)
+- Resumo (total acumulado das transações)
 Get:
   http://localhost:3333/transactions/summary
