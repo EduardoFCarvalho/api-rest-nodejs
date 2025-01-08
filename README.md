@@ -1,4 +1,4 @@
-# Projeto Laravel 11
+# Node JS API Rest
 
 - :movie_camera: [Video demonstrativo](https://youtu.be/V8bFXcmjFZQ).
 
